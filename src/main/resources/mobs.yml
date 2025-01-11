@@ -1,0 +1,10 @@
+mobs:
+  DeadHunter:
+    health: 30
+    spawn-frequency: 10
+    spawn-normally: true
+    texture-url: "https://www.minecraftskins.com/uploads/skins/2025/01/10/deadhunter-22988728.png"
+    detection-range:
+      min: 8
+      max: 30
+    weapon-swap-range: 7

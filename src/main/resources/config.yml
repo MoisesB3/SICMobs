@@ -1,0 +1,32 @@
+# SicMobs Plugin Configuration
+
+# General settings for the plugin
+pluginSettings:
+  # This is the default texture URL for skins
+  defaultSkinURL: 'https://www.minecraftskins.com/uploads/skins/2025/01/10/deadhunter-22988728.png?v737'
+
+  # Enable or disable specific mob types
+  enableDeadHunter: true
+  enableZombieHunter: false
+
+# Mob-specific settings
+mobSettings:
+  # This will define the health multiplier for the mobs
+  deadHunterHealthMultiplier: 2.0
+  zombieHunterHealthMultiplier: 1.5
+
+# Command settings
+commands:
+  # The commands that the plugin will register and manage
+  spawnDeadHunter: '/spawnDeadHunter'
+  spawnZombieHunter: '/spawnZombieHunter'
+
+# A list of default skins for the mobs (optional)
+mobSkins:
+  deadHunterSkin: 'https://www.minecraftskins.com/uploads/skins/2025/01/10/deadhunter-22988728.png?v737'
+  zombieHunterSkin: 'https://www.minecraftskins.com/uploads/skins/2025/01/10/deadhunter-22988728.png?v737'
+
+# Debug settings
+debug:
+  enableLogging: true
+  logLevel: 'INFO'
