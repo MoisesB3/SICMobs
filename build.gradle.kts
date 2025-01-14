@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.sic.mobs"
-version = "1.0.20"
+version = "1.0.28"
 
 java {
     toolchain.languageVersion.set(JavaLanguageVersion.of(21))
