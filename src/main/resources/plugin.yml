@@ -1,0 +1,9 @@
+name: SicMobs
+version: 1.0.20
+main: com.sic.mobs.SicMobsPlugin
+api-version: 1.21
+
+commands:
+  spawnDeadHunter:
+    description: Spawn a dead hunter mob.
+    usage: /<command>
